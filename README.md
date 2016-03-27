@@ -1,7 +1,7 @@
 # JDBMngr
 Java Based web Application to manage your DataBase
 
-JDBGmgr is a Java Based Web Application to access your DataBase to perform daily operation
+JDBGmgr is a Java Based Web Application to access your DataBase to perform your daily operation
 
 #SCREENSHOTS
 
