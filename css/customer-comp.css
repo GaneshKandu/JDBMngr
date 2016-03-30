@@ -1,0 +1,29 @@
+body {
+  padding-top:10%;
+  background: #eee;
+}
+#error-img {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  *display:none;
+}
+#error-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+#error .main-icon .uxicon {
+  font-size:72px;
+  color:inherit;
+}
+#error h1 {
+  margin-bottom:20px;
+}
