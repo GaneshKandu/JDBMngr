@@ -1,0 +1,418 @@
+body {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+#cont{
+	width: 100%;
+	height: 100%;
+}
+#body {
+	float: left;
+	height: 100%;
+	/* left: 0px; */
+	right: 0px;
+	position: absolute;
+	width: calc( 100% - 250px );
+	background-color: #F0F0F0;
+}
+#table{
+	min-height: 500px;
+	border: 1px solid #B7B7B7;
+	padding: 5px;
+	background-color: #FFF;
+	border-radius: 0 1px 1px 1px;
+	float: left;
+	width: 100%;
+}
+#table table tr td img{
+    margin-right: 10px;
+}
+a{
+	text-decoration: none;
+}
+#databases ol li{
+	list-style-image: url("database.png");
+}
+#databases{
+background-color: #F0F0F0;
+height: 100%;
+float: left;
+width: 250px;
+border-style: solid;
+border-left-color: #777;
+border-width: 0px 1px 0px 1px;
+border-top-width: 0px;
+border-right-width: 1px;
+border-bottom-width: 0px;
+border-left-width: 1px;
+border-right-color: #FFF;
+}
+#dbtree
+{
+width: 250px;
+background-color: #eee;
+height: 100%;
+margin: 0px;
+padding: 0px;
+float: left;
+overflow:scroll;
+overflow-x:hidden;
+overflow-y:scroll;
+}
+#desc
+{
+width:100%;
+background-color:#fff;
+height: 100%;
+margin: 0px;
+padding: 0px;
+float: left;
+}
+#desc nav
+{
+
+}
+#desc li
+{
+float: left;
+width: 12.5%;
+background: -moz-linear-gradient(top, #ffffff, #cdcdcd);
+border-style: solid;
+border-left-color: #777;
+border-width: 0px 1px 0px 1px;
+border-top-width: 0px;
+border-right-width: 1px;
+border-bottom-width: 0px;
+border-left-width: 1px;
+border-right-color: #FFF;
+}
+#desc li:hover
+{
+float: left;
+width:12.5%;
+background-color:#ddd;
+}
+#desc ul
+{
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+ #struct
+ {
+width:100%;
+background-color:#fff;
+height: 80%;
+margin: 0px;
+padding: 0px;
+float: left;
+overflow:scroll;
+overflow-x:hidden;
+overflow-y:scroll;
+ }
+.tabcontent
+ {
+width:100%;
+background-color:#fff;
+height: 80%;
+margin: 0px;
+padding: 0px;
+float: left;
+overflow:scroll;
+overflow-x:hidden;
+overflow-y:scroll;
+ }
+#struct table
+{
+width:100%;
+}
+#struct tr:nth-child(even) {background: #CCC}
+#struct tr:nth-child(odd) {background: #FFF}
+#cop{
+height: 40px;
+background-color: #CDCDCD;
+float: left;
+width: calc( 100% - 250px );
+}
+.tab-box { 
+border-bottom: 1px solid #DDD;
+padding-bottom: 5px;
+float: left;
+margin-top: 20px;
+margin-left: 5px;
+}
+.tab-box a {
+  border:1px solid #DDD;
+  color:#666666;
+  padding: 5px 15px;
+  text-decoration:none;
+  background-color: #eee;
+}
+.tab-box a.activeLink { 
+  background-color: #fff; 
+  border-bottom: 0; 
+  padding: 6px 15px;
+}
+.tabcontent { border: 1px solid #ddd; border-top: 0;}
+.hide { display: none;}
+#editor{
+padding: 10px;
+width: 95%;
+height: 100px;
+margin-left: 10px;
+margin-top: 10px;
+}
+#editor .key{
+	color:#ff0000;
+}
+
+table {
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 640px;
+border-collapse:
+collapse; border-spacing: 0;
+}
+
+td, th {
+border: 1px solid transparent; /* No more visible border */
+height: 30px;
+transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {
+background: #DFDFDF;  /* Darken header a bit */
+font-weight: bold;
+}
+
+td {
+background: #FAFAFA;
+text-align: left;
+padding-left: 15px;
+}
+td pre{
+    text-align: left;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    height: 30px;
+    transition: all 0.3s ease 0s;
+    color: rgb(51, 51, 51);
+    font-family: Helvetica,Arial,sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+/* ==================================================================== */
+#arrow{
+  overflow: hidden;
+  width: 100%;
+}
+
+#arrow li{
+  float: left;
+  margin: 0 2px 0 20px;
+}
+
+#arrow a{
+  background: #ddd;
+  padding: 2px 20px;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+}
+
+#arrow a:hover{
+  background: #99db76;
+}
+
+#arrow a::before{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -12px;   
+  border-width: 12px 0 12px 20px;
+  border-style: solid;
+  border-color: #ddd #ddd #ddd transparent;
+  left: -20px;
+}
+
+#arrow a:hover::before{
+  border-color: #99db76 #99db76 #99db76 transparent;
+}
+
+#arrow a::after{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -12px;   
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 20px solid #ddd;
+  right: -20px;
+}
+
+#arrow a:hover::after{
+  border-left-color: #99db76;
+}
+
+#arrow .current,
+#arrow .current:hover{
+  font-weight: bold;
+  background: none;
+}
+
+#arrow .current::after,
+#arrow .current::before{
+  content: normal;
+}
+#arrow{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Cells in even rows (2,4,6...) are one color */
+tr:nth-child(even) td { background: #F1F1F1; }  
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */
+tr:nth-child(odd) td { background: #FEFEFE; } 
+
+tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
+
+#nav{
+	padding: 15px;
+}
+#sort{
+	padding: 15px;
+}
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover {
+    color: #c00;
+    text-decoration: none;
+}
+
+.tooltip:hover:after {
+    background: #111;
+    background: rgba(0,0,0,.8);
+    border-radius: .5em;
+    bottom: 1.35em;
+    color: #fff;
+    content: attr(title);
+    display: block;
+    left: 1em;
+    padding: .3em 1em;
+    position: absolute;
+    text-shadow: 0 1px 0 #000;
+    white-space: nowrap;
+    z-index: 98;
+}
+
+.tooltip:hover:before {
+    border: solid;
+    border-color: #111 transparent;
+    border-color: rgba(0,0,0,.8) transparent;
+    border-width: .4em .4em 0 .4em;
+    bottom: 1em;
+    content: "";
+    display: block;
+    left: 2em;
+    position: absolute;
+    z-index: 99;
+}
+#alert{
+background-color: rgb(255, 235, 230);
+width: 800px;
+height: 300px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -400px;
+margin-top: -150px;
+border: 2px solid #FF7954;
+}
+
+#alert #title{
+	align-content: center;
+	background-color: rgb(255, 186, 186);
+	height: 30px;
+	width: 100%;
+	margin: 0px;
+	padding: 10px;
+}
+#alert #title #close{
+	color: #ff0000;
+	margin: 0px 0px 0px 20px;
+	line-height: 0;
+}
+#alert #dtitle p{
+	color: #ff0000;
+	margin: 0px 0px 0px 20px;
+	line-height: 1.5;
+}
+#alert #dtitle{
+	margin: 0px 0px 0px 0px;
+	height: 25px;
+	padding: 10px;
+	background-color: #ffbebe;
+}
+#alert #errorbody{
+	padding: 10px;
+	text-align: justify;
+}
+/* highlight styles */
+.ldt{ height:500px; width:700px; }
+.ldt .comment { color: green; }
+.ldt .string { color: #4d88ff; }
+.ldt .number { color: #ff8533; }
+/* setting inline-block and margin to avoid misalignment bug in windows */
+.ldt .keyword { color: blue; font-weight: bold; display: inline-block; margin-bottom: -1px; }
+.ldt .variable { color: cyan; }
+.ldt .define { color: #454545; }
+
+/* pagination */
+
+
+#pagination{
+  overflow: hidden;
+  width: 100%;
+}
+
+#pagination li{
+  float: left;
+  margin: 0 2px 0 1px;
+  border: 1px solid black;
+}
+
+#pagination a{
+	background: #fff;
+	color: #000;
+  padding: 2px 20px;
+  float: left;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+}
+
+#pagination a:hover{
+  background: #99db76;
+}
+
+#pagination{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
