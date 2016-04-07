@@ -15,7 +15,7 @@ JDBGmgr is a Java Based Web Application to access your DataBase to perform your 
 * export .sql file
 * import .sql file
 * perform crud
-* sql box
+* sql Query box
 
 # Installation
 
