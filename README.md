@@ -42,3 +42,7 @@ JDBGmgr is a Java Based Web Application to access your DataBase to perform your 
 ##About Me
 I am Software Developer in India<br/>
 [kanduganesh@gmail.com](mailto:kanduganesh@gmail.com?subject=JDBMngr:)
+
+##LICENSE
+
+Apache License
