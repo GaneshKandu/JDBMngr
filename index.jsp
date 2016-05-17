@@ -146,6 +146,7 @@
 	<li <%=h.tab(tab,"export")%>><a href="export?db=<%=db%>">Export</a></li>
 	<li <%=h.tab(tab,"import")%>><a href="index.jsp?db=<%=db%>&tab=import">Import</a></li>
         <% } %>
+	<!--li><a href="#" id="about">About</a></li-->
 </ul>
 <div id="table">
         <div id="ct">
@@ -172,6 +173,7 @@
                 my.setrowcount();
                 out.write(h.getpagination());
                 out.write(my.getTable(db,table));
+                out.write(h.getpagination());
             }
         }
         /* get table insert */
