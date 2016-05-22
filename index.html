@@ -1,111 +1,117 @@
+<!DOCTYPE html>
 
-<html>
-<head>
-    <title>JDBMngr</title>
-	<LINK rel="SHORTCUT ICON" href="images/logo.png"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<style>
-	.screenshot{
-width: 50%;
-background-image: url("images/frame.png");
-background-repeat: no-repeat;
-background-size: 100%;
-	}
-	.screenshot img{
-width: 100%;
-margin-top: 53px;
-	}
-	ul{
-	padding:0px;
-	}
-	li{
+<html lang="en" dir="ltr">
+  <head>
+    
+    <title>JDBMngr - Home</title>
 	
-	}
-	</style>
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "e0a1199a-8b00-4c42-9e0e-f423f61f216c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-</head>
-<body>
-    <!-- Fixed navbar -->
-    <div class="menu">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header" id="wf">
-                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button-->
-                    <center><a class="navbar-brand" href="index.html#"><font>JDBMngr</font></a></center>
-                </div>
-            </div>
-        </nav>
-    </div>
-                <div id="about" class="divs">
-				<div class="space"></div>
-				<center><span class="title"><img src="images/logo.png"/></span></center>
-				<center><span class="title">JDBMngr</span></center>
-				<center><p id="aboutp"><font style="font-size:30px">JDBMngr<br/>is a Java Based Web Application<br/>To Manage your DataBase
-				</font></p></center>
-				<center>
-				<a href="https://github.com/GaneshKandu/JDBMngr" class="btn">View on GitHub</a>
-				<a href="https://github.com/GaneshKandu/JDBMngr/zipball/master" class="btn">Download .zip</a>
-				<a href="https://github.com/GaneshKandu/JDBMngr/tarball/master" class="btn">Download .tar.gz</a>
-				</center>
-				<center>
-					<span class='st_sharethis_large' displayText='ShareThis'></span>
-					<span class='st_googleplus_large' displayText='Google +'></span>
-					<span class='st_google_large' displayText='Google'></span>
-					<span class='st_google_bmarks_large' displayText='Bookmarks'></span>
-					<span class='st_facebook_large' displayText='Facebook'></span>
-					<span class='st_twitter_large' displayText='Tweet'></span>
-					<span class='st_linkedin_large' displayText='LinkedIn'></span>
-					<span class='st_pinterest_large' displayText='Pinterest'></span>
-					<span class='st_email_large' displayText='Email'></span>
-					<span class='st_whatsapp_large' displayText='WhatsApp'></span>
-					<span class='st_google_reader_large' displayText='Google Reader'></span>
-					<span class='st_blogger_large' displayText='Blogger'></span>
-					</center>
-					<center>
-					<p id="aboutp"><font style="font-size:30px">Features</font></p>
-<ul>
-    <li>browse tables and see all the data</li>
-    <li>export .sql file</li>
-    <li>import .sql file</li>
-    <li>perform crud</li>
-    <li>sql query box</li>
-</ul>
-<p id="aboutp"><font style="font-size:30px">Installation</font></p>
-<ul>
-    <li>Take the JDBMngr.war file and deploy it, by copying it to $TOMCAT_HOME/webapps.</li>
-    <li>Restart Tomcat and point your browser to http://YOURIP:YOURPORT/JDBMngr/.</li>
-</ul>
-<p id="aboutp"><font style="font-size:30px">or</font></p>
-<ul>
-    <li>Open your TOMCAT Manager and Select JDBMngr.war and Diploy</li>
-</ul>
-<p id="aboutp"><font style="font-size:30px">or</font></p>
-<ul>
-    <li>Copy all the file and folder to your $TOMCAT_HOME/webapps/JDBMngr folder</li><ul>
-        <li>css</li>
-        <li>Images</li>
-        <li>js</li>
-        <li>META-INF</li>
-       <li> WEB-INF</li>
-        <li>index.jsp</li>
-</ul>
-    <li>Restart Tomcat and point your browser to http://YOURIP:YOURPORT/JDBMngr/.</li>
-	</ul>
-		</center>
+    <!-- meta -->
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="JDBMngr">
+	<meta name="keywords" content="JDBMngr,MySql,Java,database tool">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    
+    <!-- set base for HTML5 mode -->
+    <base href="">
+    
+    <!-- icons -->
+    <link rel="icon" href="files/logo64x64.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="files/logo64x64.png">
+    <meta name="theme-color" content="#FFFFFF">
+    <link rel="apple-touch-icon" href="files/logo64x64.png">
+          
+    <!-- font -->
+    <link href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
+	<link type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.css" rel="stylesheet">
+    
+	<!-- css -->
+    <link type="text/css" href="css/libs.min.css?t=1463911747" rel="stylesheet">
+	<link type="text/css" href="css/respond.min.css?t=1463911747" rel="stylesheet">
+    
+    <!-- js -->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/respond.site.js"></script>
+    
+    <!-- web components -->
+    <script src="components/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="components/respond-build.html">
 
-				<div class="space"></div>
-				<center><a href="https://github.com/GaneshKandu/JDBMngr" >JDBMngr</a>&nbsp;is maintained by&nbsp;<a href="https://github.com/GaneshKandu" >GaneshKandu</a></center>
-				<div class="space"></div>
-                </div>
-</body>
+  </head>
+
+  <!-- entry point for site -->
+  <body page="5741576d4980f" class="home"><respond-languages></respond-languages>
+<respond-cart></respond-cart>
+<respond-search></respond-search>
+
+<!-- background and mask -->
+<div class="background"></div>
+<div class="background-divider"></div>
+<div class="background-mask"></div>
+
+<header role="banner">
+
+	<nav class="navbar" role="navigation">
+      
+    	<div class="nav-toggles">
+			<respond-search-toggle></respond-search-toggle>
+			<respond-cart-toggle></respond-cart-toggle>
+			<respond-languages-toggle></respond-languages-toggle>
+      	</div>
+      	<!-- ./nav-toggles -->
+	  
+	  	<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		      <span class="sr-only">Toggle navigation</span>
+		      <i class="fa fa-bars"></i>	    
+		    </button>
+        
+			<a class="navbar-brand hidden-xs" href="index.html"><img src="files/logo400x400.png"></a>
+			<a class="navbar-brand visible-xs-inline-block" href="index.html"><img src="files/logo64x64.png"></a>
+	  	</div>
+	  	<!-- /.navbar-header -->
+	
+		<div class="collapse navbar-collapse navbar-ex1-collapse"> 
+			<ul class="nav navbar-nav"><li class="active "><a href="index.html">Home</a></li><li><a href="page/contact.html">Contact</a></li><li class=" gallery"><a href="gallery.html">Gallery</a></li></ul>
+		</div>
+		<!-- /.navbar-collapse -->
+      
+	</nav>
+
+</header>
+  
+<div id="content" class="container" role="main">
+  <div id="logo" backgroundimage="files/LOGO_.png" backgroundstyle="cover"  class="container" style="background-image: url(files/LOGO_.png); background-size: cover; background-position: center center;"><div id="block-1" class="block row jumbotron" data-nested="nested" backgroundimage="files/LOGO_.png" backgroundstyle="cover" data-containerid="logo" data-containercssclass=""><div  class="col col-md-12"><h1 data-i18n="5741576d4980f.h1-1" id="h1-1"><br></h1></div></div></div><div  class="container nested-container alternate-background-3"><div id="block-2" class="block row" data-nested="nested" data-containerid="" data-containercssclass="nested-container alternate-background-3"><div  class="col col-md-12"><h2 data-i18n="5741576d4980f.h2-1" id="h2-1">JDBMngr</h2><p data-i18n="5741576d4980f.p-1" class="text-left" id="p-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Java Based web Application to manage your DataBase ( DB Tool )
+
+JDBGmgr is a Java Based Web Application to access your DataBase to perform your daily operation</p></div></div></div><div  class="container nested-container alternate-background-2"><div id="block-4" class="block row" data-nested="nested" data-containerid="" data-containercssclass="nested-container alternate-background-2"><div  class="col col-md-12"><p data-i18n="5741576d4980f.p-2" id="p-2"></p><respond-html description="HTML" id="html-2">				<a href="https://github.com/GaneshKandu/JDBMngr" class="btn">View on GitHub</a>
+				<a href="https://github.com/GaneshKandu/JDBMngr/zipball/master" class="btn">Download .zip</a>
+				<a href="https://github.com/GaneshKandu/JDBMngr/tarball/master" class="btn">Download .tar.gz</a></respond-html></div></div></div><div  class="container nested-container backdrop"><div id="block-5" class="block row" data-nested="nested" data-containerid="" data-containercssclass="nested-container backdrop"><div  class="col col-md-12"></div></div></div><div  class="container nested-container"><div id="block-6" class="block row" data-nested="nested" data-containerid="" data-containercssclass="nested-container"><div  class="col col-md-12"><h1 data-i18n="5741576d4980f.h1-3" id="h1-3">Features</h1><ul id="ul-1"><li>Creating a database</li><li>Connection to an existing database</li><li>Upload a sql file</li><li>Import a sql file</li><li>Managing multiple databases</li><li>Inserting data</li><li>Modifying data</li><li>Manual creation</li><li>Sql Query box <br></li></ul></div></div></div><div id="block-7" class="block row" data-nested="not-nested" data-containerid="" data-containercssclass=""><div  class="col col-md-12"><h1 data-i18n="5741576d4980f.h1-2" class="text-center" id="h1-2">Installation</h1><ul id="ul-2"><li>Take the JDBMngr.war file and deploy it, by copying it to $TOMCAT_HOME/webapps.</li><li>Restart Tomcat and point your browser to http://YOURIP:YOURPORT/JDBMngr/.</li></ul></div></div><div id="block-8" class="block row" data-nested="not-nested" data-containerid="" data-containercssclass=""><div  class="col col-md-12"><h4 data-i18n="5741576d4980f.h4-1" class="text-center" id="h4-1">or</h4><ul id="ul-3"><li>Open your TOMCAT Manager and Select JDBMngr.war and Diploy</li></ul></div></div><div id="block-9" class="block row" data-nested="not-nested" data-containerid="" data-containercssclass=""><div  class="col col-md-12"><h4 data-i18n="5741576d4980f.h4-2" class="text-center" id="h4-2">or</h4><ul id="ul-4"><li>Copy all the file and folder to your $TOMCAT_HOME/webapps/JDBMngr folder</li></ul><ul id="ul-5"><li>css</li><li>Images<br></li><li>js</li><li>META-INF</li><li>WEB-INF</li><li>index.jsp</li></ul></div></div>
+</div>
+
+<footer role="contentinfo">
+  	<div class="container">
+  		<div id="footer-block-1" class="block row" data-nested="not-nested" data-containerid="" data-containercssclass="">
+    <div class="col col-md-6">
+        <h3 id="footer-h3-1">Contact</h3>
+        <p id="footer-p-1">Give me a mail at<a href="mailto:kanduganesh@gmail.com">kanduganesh@gmail.com</a>.</p>
+    </div>
+    <div class="col col-md-6">
+        <h3 id="footer-h3-2">About</h3>
+        <p id="footer-p-2">Java Based web Application to manage your DataBase ( DB Tool ) <a href="index.html">JDBGmgr</a> is a Java Based Web Application to access your DataBase to perform your daily operation</p>
+    </div>
+</div>
+<div id="footer-block-2" class="block row" data-nested="not-nested" data-containerid="" data-containercssclass="">
+    <div class="col col-md-12">
+        <respond-menu id="menu-1" type="footer"></respond-menu>
+    </div>
+</div>
+	</div>
+  	<!-- /.container -->
+</footer></body>
+    
 </html>
+
+<!-- jquery and bootstrap -->
+<script src="js/libs.min.js?t=1463911747"></script>
